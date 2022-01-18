@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #fff;
+}
+.container {
+  width: 70vw;
+  height: 100vh;
+  margin: 2rem auto;
+  flex-direction: column;
+}
+
+input,
+button {
+  width: 100%;
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+.contacto {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.borrar {
+  cursor: pointer;
+  color: red;
+}
